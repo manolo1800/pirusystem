@@ -13,13 +13,13 @@
     require_once '../views/layouts/sidebar.php';
 
     //Cargamos controladores y acciones
-    if(isset($_GET["controller"])){
+    /*if(isset($_GET["controller"])){
         $controllerObj=cargarControlador($_GET["controller"]);
         lanzarAccion($controllerObj);
     }else{
         $controllerObj=cargarControlador(CONTROLADOR_DEFECTO);
         lanzarAccion($controllerObj);
-    }
+    }*/
 
     require_once '../views/layouts/footer.php';
 ?>
